@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stress test!</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2 class="text-center">Are you struggling?</h2>
+      </div>
+      <form class="checkbox">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="form-control">
+              <input type="checkbox" name="warningSign" value="tummyAche">Tummyache<br>
+              <input type="checkbox" name="warningSign" value="appetiteLoss">Loss of appetite<br>
+              <input type="checkbox" name="warningSign" value="muscleTension">Muscle tension<br>
+              <input type="checkbox" name="warningSign" value="sleepLoss">Loss of sleep<br>
+              <input type="checkbox" name="warningSign" value="overwhelmed">Feeling overwhelmed<br>
+              <input type="checkbox" name="warningSign" value="booBoo">Phantom Boo-Boos<br>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-control">
+              <input type="checkbox" name="symptoms" value="highBlood">High Blood Pressure<br>
+              <input type="checkbox" name="symptoms" value="anxiety">Anxiety<br>
+              <input type="checkbox" name="symptoms" value="migraine">Migraines<br>
+              <input type="checkbox" name="symptoms" value="weightLoss">Weight-Loss<br>
+              <input type="checkbox" name="symptoms" value="hairLoss">Hair-Loss<br>
+              <input type="checkbox" name="symptoms" value="threeYearsOld">I am 3<br>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-control">
+              <input type="checkbox" name="coping" value="meditate">Meditate<br>
+              <input type="checkbox" name="coping" value="manageTime">Manage your time<br>
+              <input type="checkbox" name="coping" value="petKitty">Pet-a-kitty<br>
+              <input type="checkbox" name="coping" value="waitYears">Wait till you're older<br>
+              <input type="checkbox" name="coping" value="goRun">Go for a run<br>
+              <input type="checkbox" name="coping" value="wasted">Get wasted<br>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+          </div>
+          <div class="col-md-2">
+            <button type="submit" class="btn">Get Reccommendations</button>
+          </div>
+          <div class="col-md-5">
+          </div>
+        </div>
+      </form>
+      <div id="output">
+        <p id="issues">
+          BAD
+        </p>
+        <p id="specialist">
+          MEH
+        </p>
+        <p id="good">
+          GOOD
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
